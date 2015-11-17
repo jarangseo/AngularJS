@@ -11,7 +11,9 @@
 
 ##3. 재사용할 수 있는 UI컴포넌트를 만들 수 있다
 - html의 form태그와 같이 재사용가능한 UI컴포넌트들
+```javascript
 - <map>, <graph>, <table sortale="true">
+```
 
 ##4. 의존관계주입을 이용해 웹 애플리케이션 자바스크립트 개발을 할 수 있다
 -
@@ -56,14 +58,18 @@ $("#appName").text("서자랑의 TODO APP");
 
 #EACM 문자 조합으로 문자열을 줄 수 있다
 ##1. 요소의 속성을 이용한 호출 - A
+```javascript
 <span my-directive="expression"></span>
-
+```
 ##2. 요소의 클래스를 이용한 호출 - C
+```javascript
 <span class="my-directive: expression;"></span>
-
+```
 ##3. 요소의 이름을 이용한 호출 - E
+```javascript
 <my-directive></my-directive>
-
+```
 ##4. 코멘트를 이용한 호출 - M
+```javascript
 <!-- directive: my-directive expression-->
-
+```
